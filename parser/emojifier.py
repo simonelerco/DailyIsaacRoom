@@ -104,7 +104,7 @@ def entity_to_emoji(entity):
         
         case [enemy, _, _] if enemy in enemies:
             # ANY enemy
-            return "💀"
+            return "😠"
 
         case _:
             return ""
