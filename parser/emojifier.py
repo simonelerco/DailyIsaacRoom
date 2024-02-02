@@ -98,9 +98,12 @@ def entity_to_emoji(entity):
         case [5001, 0, 0]:
             # angel statue
             return "👼"
+        case [3000, 0, 0]:
+            # pit
+            return "🕳️"
         case [291 | 9000 | 9100, 0, 0]:
             # exits
-            return "🕳"
+            return "🕳️"
         
         case [enemy, _, _] if enemy in enemies:
             # ANY enemy
