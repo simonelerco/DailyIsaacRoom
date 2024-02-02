@@ -41,7 +41,7 @@ def job():
 
 
 if __name__ == "__main__":
-    schedule.every().day.at("00:00", "Europe/Amsterdam").do(job)
+    schedule.every().day.at("20:00", "Europe/Amsterdam").do(job)
 
     while True:
         schedule.run_pending()
